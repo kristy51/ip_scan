@@ -36,7 +36,7 @@ $threads = 1000 # how many simultanious threads. I've tested up to 1000 ok again
 
 $list = for ($a=1; $a -le 255; $a++) # set the last octlet range
 			{
-				"10.0.0.$a" # set the first 3 octlets.
+				"172.20.156.69" # set the first 3 octlets.
 			}
 
 # --------------------------------------------------
